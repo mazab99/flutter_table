@@ -1,0 +1,29 @@
+name: flutter_table
+description: A new Flutter project.
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.5
+  intl: ^0.18.1
+  data_table_2: ^2.4.2
+  dotted_border: ^2.0.0+3
+  linked_scroll_controller: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+
+  uses-material-design: true
+
